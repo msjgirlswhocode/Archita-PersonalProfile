@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Hobbies! </title>
+  </head>
+
+  <body>
+    <input id="hobby" type="text" placeholder="Enter a hobby you like!">
+    <br>
+    <button onclick = nameDisplay()> Search!! </button>
+    <br>
+    <div id="hobbies">  </div>
+  </body>
+
+  <script>
+    var space = document.getElementById("hobbies");
+    var hobby = document.getElementById("hobby");
+
+    function nameDisplay ()
+    {
+      space.innerHTML = document.write(hobby.value);
+    }
+    </script>
+
+</html>

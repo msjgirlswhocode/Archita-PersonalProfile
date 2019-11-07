@@ -1,0 +1,49 @@
+body {
+  font-family: cursive;
+  background-image: url("abstract-background-3.png");
+  background-size: cover;
+  display: center;
+}
+
+.nav {
+  width: 100%;
+  float: center;
+  flex-direction: row;
+  display: inline-block;
+  text-align: center;
+}
+.nav ul li {
+  display: inline-block;
+  height: 120px;
+  width: 120px;
+  background: white;
+  color: lightsteelblue;
+  float: center;
+  opacity: .8;
+  border-radius: 50%;
+  color: purple;
+  font-size: 20px;
+}
+.nav ul li :hover {
+  opacity: 1;
+}
+/*.textcont {
+}
+.imgcont {
+}*/
+.maincontainer {
+  background-color: lightsteelblue;
+  padding: 30px;
+  justify-content: space-around;
+  width: 75%;
+  margin: auto;
+  flex-direction:column;
+
+}
+h1 {
+  color: purple;
+  font-family: cursive;
+}
+#para1 {
+  color: indigo;
+}
