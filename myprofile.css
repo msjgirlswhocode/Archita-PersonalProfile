@@ -38,6 +38,15 @@ body {
   width: 75%;
   margin: auto;
   flex-direction:column;
+  display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+
+    align-items: center;
 
 }
 h1 {
